@@ -1,0 +1,39 @@
+.container {
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 44px 57px;
+  width: 641px;
+  height: 588px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+  margin-bottom: 8px;
+}
+
+.message {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.form {
+  width: 100%;
+}
+
+.input.input {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.comment_input.comment_input {
+  height: 118px;
+  resize: none;
+}

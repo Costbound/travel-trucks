@@ -1,0 +1,14 @@
+.input {
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 18px;
+  width: 360px;
+  height: 56px;
+  background-color: var(--inputs);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+}

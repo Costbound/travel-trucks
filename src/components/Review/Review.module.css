@@ -1,0 +1,56 @@
+.container {
+  margin-bottom: 44px;
+}
+
+.author_container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--badges);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--button);
+}
+
+.author_name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+  margin-bottom: 4px;
+}
+
+.rating_container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.star_diactive {
+  fill: var(--badges)
+}
+
+.start_active {
+  fill: var(--rating)
+}
+
+.review_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+}

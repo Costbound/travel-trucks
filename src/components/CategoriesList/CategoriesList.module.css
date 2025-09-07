@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.ellipsis_item {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

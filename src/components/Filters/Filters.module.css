@@ -1,0 +1,35 @@
+.container {
+  width: 360px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.subtitle {
+font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+  margin-bottom: 24px;
+}
+
+.spacer {
+  height: 1px;
+  background-color: var(--gray-light);
+  margin-bottom: 24px;
+}
+
+.filters_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 32px;
+}

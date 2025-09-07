@@ -1,0 +1,44 @@
+.container {
+  width: 631px;
+  height: 588px;
+  border-radius: 10px;
+  padding: 44px 52px;
+  background-color: var(--inputs);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+  margin-bottom: 24px;
+}
+
+.delimiter {
+  height: 1px;
+  background-color: var(--gray-light);
+  margin-bottom: 24px;
+}
+
+.datasheet_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.datasheet_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datasheet_title,
+.datasheet_value {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+  text-transform: capitalize;
+}

@@ -1,0 +1,25 @@
+.rating_and_location_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rating_wrapper,
+.location_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rating_icon {
+  fill: var(--rating)
+}
+
+.location_value,
+.rating_value {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+}

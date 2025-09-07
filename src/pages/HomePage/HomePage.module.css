@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  font-family: var(--font-family);
+  color: var(--inputs);
+  font-weight: 600;
+  height: 696px;
+  padding: 0 64px;
+  background-image: image-set( url('../../assets/hero-bg.jpg') 1x, url('../../assets/hero-bg@2x.jpg') 2x );
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 67%;
+  margin-bottom: 16px;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 133%;
+    margin-bottom: 40px;
+}
+
+.button.button {
+  width: 173px;
+}

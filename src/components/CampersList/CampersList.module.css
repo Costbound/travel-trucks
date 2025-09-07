@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  min-width: 888px;
+}
+
+.list {
+  width: 888px;
+  margin-bottom: 40px;
+}
+
+.load_more_button.load_more_button {
+  margin: 0 auto;
+  border: 1px solid var(--gray-light);
+  border-radius: 200px;
+  padding: 16px 32px;
+  background-color: transparent;
+  color: var(--main);
+  transition: border 0.3s ease;
+}
+
+.load_more_button.load_more_button:hover {
+  border: 1px solid var(--button-hover);
+}
+
+.no_campers {
+  font-family: var(--font-family);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+}
